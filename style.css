@@ -1,0 +1,81 @@
+body {
+    background-color: black;
+}
+
+.header_title {
+    font-family: "Montserrat";
+    margin-top: 50px;
+    margin-left: 50px;
+    color: white;
+    text-align: center;
+}
+
+.desc {
+    font-family: "Sour Gummy";
+    text-align: center;
+    color: white;
+}
+
+.members_title {
+    font-family: "Roboto";
+    text-align: center;
+    margin-top: -5px;
+    color: white;
+}
+.member_container {
+    background-color: whitesmoke;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 200px;
+    margin: 1%;
+    margin-top: 0;
+    width: 150px;
+    height: 200px;
+    flex-direction: column;
+}
+.names {
+    font-family: "Kanit";
+    margin-top: 110px;
+    text-align: center;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+.member_details {
+    font-family: "Sour Gummy";
+    margin: 0;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 20px;
+}
+img {
+    border-radius: 50%;
+    margin-bottom: 100px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 90px;
+    position: fixed;
+}
+
+img:hover {
+    cursor: pointer;
+    transform: scale(1.20);
+    transition: 1s ease;
+}
+
+.members_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+}
