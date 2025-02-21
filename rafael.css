@@ -111,3 +111,39 @@ h5:hover {
 .star_img:hover {
     cursor: pointer;
 }
+
+#stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.star {
+    color: white;
+    margin: 2px;
+    font-size: 40px;
+}
+.star:hover {
+    cursor: pointer;
+}
+
+.star2 {
+    color: white;
+    margin: 2px;
+    font-size: 40px;
+}
+.star2:hover {
+    cursor: pointer;
+}
+
+.rating_cont {
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h4 {
+    color: white;
+    font-family: "Montserrat";
+    margin-right: 20px;
+}
